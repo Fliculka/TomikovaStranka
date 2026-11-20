@@ -80,16 +80,23 @@ ul li a {
     color: rgb(243, 222, 255);
 }
 ul li a:hover {
-    font-weight: 900;
+    animation: fa-jello 1.5s infinite linear;
 }
 .imagemid {
     max-width: 40%;
     float: inline-end;
     padding: 1%;
 }
+.imagemid:hover {
+    animation: fa-buzz 1.5s;
+}
 .decoration {
     color: rgb(243, 222, 255);
 }
+.decoration:hover {
+    animation: fa-jello 1.5s infinite linear;
+}
+
 @media screen and (max-width: 1430px) 
     {
         .decoration {
