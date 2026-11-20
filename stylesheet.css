@@ -1,0 +1,72 @@
+
+
+.science-gothic {
+  font-family: "Science Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "CTRS" 0;
+}
+.line {
+    background-color: rgb(56, 52, 59);
+   
+    justify-content: center;
+    margin-bottom: 0em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0em;
+    max-width: 50%;
+    padding: 0.5em;
+    
+}
+p {
+    color: rgb(243, 222, 255);
+}
+h1 {
+
+    text-align: center;
+    color: rgb(243, 222, 255);
+    font-size: 3em;
+}
+h2 {
+    color: rgb(243, 222, 255);
+}
+h3 {
+    color: rgb(243, 222, 255);
+}
+body {
+    background-color: black;
+    background-image: url('https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?q=80&w=2386&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D');
+
+}
+nav ul {
+    font-size: 1.4em;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgba(56, 52, 59);
+    border-radius: 0.3em;
+    border-style: solid;
+    border-color: rgb(122, 102, 131);
+    background-color: rgb(122, 102, 131, 0.5);
+    border-width: 0.2em;
+    text-align: center;
+    padding: 0em;
+}
+ul li {
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+}
+ul li a {
+    text-decoration: none;
+    color: rgb(243, 222, 255);
+    text-align: center;
+}
+ul li a:hover {
+    color: rgb(48, 19, 62);
+}
