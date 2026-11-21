@@ -34,6 +34,9 @@ h1 {
     color: rgb(243, 222, 255);
     font-size: 3em;
 }
+h1:hover {
+    animation: fa-jello 1.5s;
+}
 h2 {
     color: rgb(243, 222, 255);
 }
@@ -41,6 +44,9 @@ h3 {
     font-size: 2em;
     text-align: center;
     color: rgb(243, 222, 255);
+}
+h3:hover {
+    animation: fa-jello 1.5s;
 }
 body {
     background-color: black;
@@ -74,6 +80,10 @@ ul li {
     text-decoration: none;
     text-align: center;
 }
+article a {
+    color: rgb(243, 222, 255);
+    padding: 1%;
+}
 ul li a {
     padding: 1%;
     text-decoration: none;
@@ -82,8 +92,21 @@ ul li a {
 ul li a:hover {
     animation: fa-jello 1.5s infinite linear;
 }
+.datum {
+    font-style: italic;
+    font-size: 0.9em;
+}
+.project {
+    padding-bottom: 2%;
+    border-bottom:1px solid rgb(243, 222, 255) ;
+}
 .imagemid {
     max-width: 40%;
+    float: inline-end;
+    padding: 1%;
+}
+.imageproject {
+    max-width: 30%;
     float: inline-end;
     padding: 1%;
 }
@@ -92,12 +115,19 @@ ul li a:hover {
 }
 .decoration {
     color: rgb(243, 222, 255);
+    animation-name: myAnimation;
+    animation-duration: 4s;
 }
 .decoration:hover {
     animation: fa-jello 1.5s infinite linear;
 }
-
-@media screen and (max-width: 1430px) 
+@keyframes myAnimation {
+  0% {color: rgb(243, 222, 255);}
+  50% {color: rgb(180, 133, 207);}
+  100% {color: rgb(243, 222, 255);}
+  
+}
+@media screen and (max-width: 1450px) 
     {
         .decoration {
             display: none;
@@ -110,11 +140,19 @@ ul li a:hover {
             max-width: 60%;
             margin: auto;
         }
+        .imageproject {
+            max-width: 60%;
+            margin: auto;
+        }
         
     }
     @media screen and (max-width: 600px) 
     {
         .imagemid {
+            max-width: 90%;
+            margin: auto;
+        }
+        .imageproject {
             max-width: 90%;
             margin: auto;
         }
