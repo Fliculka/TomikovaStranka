@@ -27,21 +27,22 @@
 }
 p {
     color: rgb(243, 222, 255);
+        font-size: clamp(0.9rem, 1.2vw, 1.5rem);
 }
 h1 {
-
     text-align: center;
     color: rgb(243, 222, 255);
-    font-size: 3em;
+    font-size: clamp(2rem, 6vw, 3rem);
 }
 h1:hover {
     animation: fa-jello 1.5s;
 }
 h2 {
     color: rgb(243, 222, 255);
+    font-size: clamp(1rem, 2.5vw, 3rem);
 }
 h3 {
-    font-size: 2em;
+    font-size: clamp(1vw, 1.8em, 3em);
     text-align: center;
     color: rgb(243, 222, 255);
 }
