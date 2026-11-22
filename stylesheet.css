@@ -126,6 +126,13 @@ ul li a:hover {
     text-align: center;
     border-bottom:1px solid rgb(243, 222, 255) ;
 }
+#credits {
+    display: flex;
+    justify-content: center;
+    font-size: clamp(0.7rem, 1vw, 1.1rem);
+    text-align: center;
+    color: rgb(114, 100, 127);
+}
 
 @keyframes navbar {
   0% {background-color: rgb(122, 102, 131, 0.5);}
