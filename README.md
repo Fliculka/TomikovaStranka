@@ -17,10 +17,19 @@ You can also see that the navbar ever so slightly changes colors.
 ### The main sections
 yes, it's just text- buuut the image also floats nicely next to the text, and it all scales pretty well for mobile, so that's a win in my opinion.
 
+## Does it work on mobile?
+Yessss, 99% does. -> No header deco for mobile viewing tho. The stars are very much hardcoded so It's kinda hard to make it scale -_-'
+They DO scale tho - somewhat- they change position on smaller screens, (untill the screen is too smol, then they disappear to make sure they don't end up in places I don't want them to be at.)
+
 ## AI usage
 Nothing was coded by AI. I did ask chatgpt to explain ways to do something, but then I did it my way to fit whatever I was trying to do. I believe I asked like 3 questions in total, so it definetly wasn't used heavily.
 
 ### Does it fit terras theme this week?
 WELL.... Technically, this is so high up it's above a peak, since its space themed.. and peaks are good for stargazing...?
-_ lul don't take me seriously, I had to wake up at 4:30 am to watch F1 -u- _
+_ please don't take me seriously, I had to wake up at 4:30 am to watch F1 -u-' _
 
+
+### Brought to you by:
+<img width="297" height="533" alt="Aaa" src="https://github.com/user-attachments/assets/9c702e99-bbf0-44a2-8a0d-ff84a848192d" />
+
+-Your local Fishy artist :]
