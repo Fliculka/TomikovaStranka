@@ -1,5 +1,8 @@
 # TomikovaStranka
 
+## Link
+https://portfolioforafriend.netlify.app
+
 ## REASON FOR MAKING
 Well you see, from coding I enjoy html / css - making websites the most. And since I actually enjoy it, I decided to do just that for the week 5 of terra. And because I already made myself a website, I needed to find someone who'd want a simple portfolio site... And then one of my classmates voluntered as a tribute, so that's why we're here
 
