@@ -27,19 +27,16 @@
 }
 p {
     color: rgb(243, 222, 255);
-        font-size: clamp(0.9rem, 1.2vw, 1.5rem);
+        font-size: clamp(0.9rem, 1.2vw, 1.1rem);
 }
 h1 {
     text-align: center;
     color: rgb(243, 222, 255);
     font-size: clamp(2rem, 6vw, 3rem);
 }
-h1:hover {
-    animation: fa-jello 1.5s;
-}
 h2 {
     color: rgb(243, 222, 255);
-    font-size: clamp(1rem, 2.5vw, 3rem);
+    font-size: clamp(1rem, 2.5vw, 2rem);
 }
 h3 {
     font-size: clamp(1vw, 1.8em, 3em);
@@ -64,12 +61,12 @@ nav ul {
     border-radius: 0.3em;
     border-style: solid;
     border-color: rgb(122, 102, 131);
-    background-color: rgb(122, 102, 131, 0.5);
     border-width: 0.2em;
     padding: 0em;
     gap: 1%;
     width: 50em;
     max-width: 70%;
+    animation: navbar 2s infinite linear;
     
     flex-wrap: wrap;
     flex-direction: row;
@@ -83,7 +80,9 @@ ul li {
 }
 article a {
     color: rgb(243, 222, 255);
-    padding: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: clamp(0.8rem, 1vw, 1.2rem);
 }
 ul li a {
     padding: 1%;
@@ -95,7 +94,8 @@ ul li a:hover {
 }
 .datum {
     font-style: italic;
-    font-size: 0.9em;
+    color: rgb(243, 222, 255);
+        font-size: clamp(0.8rem, 1vw, 1.2rem);
 }
 .project {
     padding-top: 5%;
@@ -117,7 +117,6 @@ ul li a:hover {
 }
 .decoration {
     color: rgb(243, 222, 255);
-    animation-name: myAnimation;
     animation-duration: 4s;
 }
 .decoration:hover {
@@ -127,39 +126,129 @@ ul li a:hover {
     text-align: center;
     border-bottom:1px solid rgb(243, 222, 255) ;
 }
-@keyframes myAnimation {
-  0% {color: rgb(243, 222, 255);}
-  50% {color: rgb(180, 133, 207);}
-  100% {color: rgb(243, 222, 255);}
+
+@keyframes navbar {
+  0% {background-color: rgb(122, 102, 131, 0.5);}
+  50% {background-color: rgba(146, 115, 161, 0.5)}
+  100% {background-color: rgb(122, 102, 131, 0.5);}
   
 }
-@media screen and (max-width: 1450px) 
+    @media screen and (max-width: 600px) 
     {
         .decoration {
             display: none;
         }
-        
+        .imagemid {
+            max-height: 30em;
+            margin: auto;
+        }
+        .imageproject {
+            max-width: 21em;
+            margin: auto;
+        }
     }
-@media screen and (max-width: 900px) 
+    
+    #no1 {
+        font-size: 4em;
+        position: absolute;
+        right: 20%;
+        top: 5%;
+        animation: fa-float 3s infinite linear;
+    }
+    #no2 {
+        font-size: 2em;
+        position:absolute;
+        right: 18%;
+        top: 10%;
+        animation: fa-float 3.2s infinite linear;
+    }
+    #no3 {
+        font-size: 2em;
+        position:absolute; right: 16.5%;
+        top: 5%;
+        animation: fa-float 3.1s infinite linear;
+    }
+    #no4 {
+        font-size: 4em;
+        position: absolute;
+        left: 20%;
+        top: 5%;
+        animation: fa-float 3s infinite linear;
+    }
+    #no5 {
+        font-size: 2em;
+        position:absolute;
+        left: 18%;
+        top: 10%;
+        animation: fa-float 3.2s infinite linear;
+    }
+    #no6 {
+        font-size: 2em;
+        position:absolute;
+        left: 16.5%;
+        top: 5%;
+        animation: fa-float 3.1s infinite linear;
+    }
+    @media screen and (max-width: 900px) 
     {
         .imagemid {
-            max-width: 60%;
+            max-width: 23em;
             margin: auto;
         }
         .imageproject {
             max-height: 15em;
             margin: auto;
         }
+        #no1 {
+            right: 1.2em;
+            top: 0.7em;
+        }
+        #no2 {
+            right: 1.3em;
+            top: 3em;
+        }
+        #no3 {
+            display: none;
+        }
+        #no4 {
+            left: 1.2em;
+            top: 0.7em;
+        }
+        #no5 {
+            left: 1.3em;
+            top: 3em;
+        }
+        #no6 {
+            display: none;
+        }
         
     }
-    @media screen and (max-width: 600px) 
+
+    @media screen and (min-width: 2000px) 
     {
-        .imagemid {
-            max-height: 90%;
-            margin: auto;
+        #no1 {
+            right: 13em;
+            top: 0.7em;
         }
-        .imageproject {
-            max-width: 21em;
-            margin: auto;
+        #no2 {
+            right: 24em;
+            top: 3em;
+        }
+        #no3 {
+            right: 22em;
+            top: 2em;
+        }
+
+        #no4 {
+            left: 13em;
+            top: 0.7em;
+        }
+        #no5 {
+            left: 24em;
+            top: 3em;
+        }
+        #no6 {
+            left: 22em;
+            top: 2em;
         }
     }
